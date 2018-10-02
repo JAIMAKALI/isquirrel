@@ -1,17 +1,17 @@
 import React,{Component} from "react";
-import Service from "./service";
+import Feature from "./feature";
 import { Grid, Image,Divider } from 'semantic-ui-react'
 
 var Home  = ()=>{
     return(
         <div className="container">
             <div className="row mt-5">
-                <p className="welcome">Welcome to <span class="isquirrrel">iSquirrrel</span></p>
+                <p className="welcome">Welcome to <span className="isquirrrel">iSquirrrel</span></p>
             </div>
             <div className="row mt-5">
                 <div className="col-md-6">
                     <p className="We-aim-to-provide-yo">We aim to provide your established business or brewing idea with a tailored key into the digital world. We focus on our three prime pillars of design, communication & strategy to give your brand the right personality and market position. </p>
-                    <p className="We-aim-to-provide-yo mt-5"><span className="bar1"></span>Call us +91-654-656</p>
+                    <p className="We-aim-to-provide-yo mt-5 blockquote-footer">Call us +91-654-656</p>
                     <button className="btn idea">Submit your idea</button>
                 </div>
             </div>
@@ -25,10 +25,10 @@ var Home  = ()=>{
                 </div>
             </div>
 
-            <Service />
+            <Feature />
 
 
-            <Service/>
+            <Feature/>
 
             <div className="row mt-5">
                 <p className="text-center what-we-do">Testimonials</p>
@@ -49,9 +49,9 @@ var Home  = ()=>{
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div class="card testinomial-card">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
+                    <div className="card testinomial-card">
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">
                                 <div className="row">
                                     <div className="col-md-2">
                                         <img src="/images/group-2.png" />
@@ -62,7 +62,7 @@ var Home  = ()=>{
                                     </div>
                                 </div>
                             </li>
-                            <li class="list-group-item">
+                            <li className="list-group-item">
                                 <div className="row">
                                     <div className="col-md-2">
                                         <img src="/images/group-2.png" />
@@ -73,7 +73,7 @@ var Home  = ()=>{
                                     </div>
                                 </div>
                             </li>
-                            <li class="list-group-item">
+                            <li className="list-group-item">
                                 <div className="row">
                                     <div className="col-md-2">
                                         <img src="/images/group-2.png" />

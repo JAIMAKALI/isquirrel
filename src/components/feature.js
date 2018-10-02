@@ -1,12 +1,12 @@
 import React,{Component} from "react";
 
 
-var Service = ()=>{
+var Feature = ()=>{
     return(
         <div className="row mt-5">
                 <div className="col-md-3">
-                    <div class="card card-custom">
-                        <div class="card-body">
+                    <div className="card card-custom">
+                        <div className="card-body">
                             <div className="img-center">
                               <img src="/images/android.png" className="card-image" />
                               <p className="card-content">
@@ -17,8 +17,8 @@ var Service = ()=>{
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div class="card card-custom">
-                        <div class="card-body">
+                    <div className="card card-custom">
+                        <div className="card-body">
                             <div className="img-center">
                               <img src="/images/combined-shape-copy.png" className="card-image" />
                               <p className="card-content">
@@ -29,8 +29,8 @@ var Service = ()=>{
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div class="card card-custom">
-                        <div class="card-body">
+                    <div className="card card-custom">
+                        <div className="card-body">
                             <div className="img-center">
                               <img src="/images/programming.png" className="card-image" />
                               <p className="card-content">
@@ -41,8 +41,8 @@ var Service = ()=>{
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div class="card card-custom">
-                        <div class="card-body">
+                    <div className="card card-custom">
+                        <div className="card-body">
                             <div className="img-center">
                               <img src="/images/smartphone-copy.png" className="card-image" />
                               <p className="card-content">
@@ -56,4 +56,4 @@ var Service = ()=>{
     )
 }
 
-export default Service;
+export default Feature;

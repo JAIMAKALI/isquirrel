@@ -1,7 +1,9 @@
-import React from "react";
+import React,{Component} from "react";
+import {NavLink} from "react-router-dom";
 
 
-var Header = () => {
+class Header extends Component{
+    render(){
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -17,16 +19,17 @@ var Header = () => {
                     </ul>
                     <ul className="navbar-nav my-2 my-lg-0">
                         <li className="nav-item mr-5">
-                            <a className="nav-link" href="#">Home</a>
+                            <NavLink  className="nav-link" to="/" activeClassName="active">About</NavLink>
                         </li>
                         <li className="nav-item mr-5">
-                            <a className="nav-link" href="#">Portfolio</a>
+                            <NavLink  className="nav-link" to="#" activeClassName="active">Portfolio</NavLink>
                         </li>
                         <li className="nav-item mr-5">
-                            <a className="nav-link" href="#">About</a>
+                            <NavLink  className="nav-link" to="/services" activeClassName="active">Service</NavLink>
+                            {/* <Link to="/services">Service</Link> */}
                         </li>
                         <li className="nav-item mr-5">
-                            <a className="nav-link" href="#">Contact</a>
+                            <NavLink  className="nav-link" to="/service" activeClassName="active">Contact</NavLink >
                         </li>
                     </ul>    
 
@@ -34,6 +37,7 @@ var Header = () => {
             </nav>
         </div>
     )
+    }
 }
         
 export default Header;
