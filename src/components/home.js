@@ -6,7 +6,7 @@ var Home  = ()=>{
     return(
         <div className="container">
             <div className="row mt-5">
-                <p className="welcome">Welcome to <span className="isquirrrel">iSquirrrel</span></p>
+                <p className="welcome">Welcome to <span className="isquirrrel">DIGISARAL</span></p>
             </div>
             <div className="row mt-5">
                 <div className="col-md-6">

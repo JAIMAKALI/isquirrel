@@ -14,7 +14,7 @@ class Header extends Component{
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active ml-5">
-                            <img src="/images/logo-4-copy.png"/>
+                            <img src="/images/logo1.jpg"/>
                         </li>
                     </ul>
                     <ul className="navbar-nav my-2 my-lg-0">
