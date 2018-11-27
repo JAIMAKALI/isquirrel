@@ -14,10 +14,10 @@ class Header extends Component{
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active ml-5">
-                            <img src="/images/logo1.jpg"/>
+                            <img src="/images/logo1.jpg" className="logo-icon"/>
                         </li>
                     </ul>
-                    <ul className="navbar-nav my-2 my-lg-0">
+                    <ul className="navbar-nav my-2 my-lg-0 nav-cus">
                         <li className="nav-item mr-5">
                             <NavLink  className="nav-link" to="/" activeClassName="active">About</NavLink>
                         </li>
@@ -29,7 +29,7 @@ class Header extends Component{
                             {/* <Link to="/services">Service</Link> */}
                         </li>
                         <li className="nav-item mr-5">
-                            <NavLink  className="nav-link" to="/service" activeClassName="active">Contact</NavLink >
+                            <NavLink  className="nav-link" to="/contact" activeClassName="active">Contact</NavLink >
                         </li>
                     </ul>    
 
